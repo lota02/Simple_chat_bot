@@ -1,0 +1,38 @@
+{"intents": [
+	{"tag": "greeting",
+	 "patterns": ["Hi", "How are you", "Is anyone there?","Hello","Good day","Whats up"],
+	 "responses": ["Hello!","Good to see you again!", "Hi there, how can I help you"],
+	 "context_set": ""
+	},
+	{"tag": "goodbye",
+	 "patterns": ["see ya", "see you later", "Goodbye","Hello","I am leaving","Have a good day"],
+	 "responses": ["Sad to see you go :(","See you soon", "Goodbye have a great day:)"],
+	 "context_set": ""
+	},
+	{"tag": "age",
+	 "patterns": ["How old", "How old is tim", "Whatis your age?","How old are you?","age?"],
+	 "responses": ["I am  18 years old!","I am 18 years young!"],
+	 "context_set": ""
+	},
+	{"tag": "name",
+	 "patterns": ["What is your name", "What should I call you","Whats your name"],
+	 "responses": ["You can call me Lota","I am Lota"],
+	 "context_set": ""
+	},
+	{"tag": "shop",
+	 "patterns": ["I would like to buy something", "Whats on the menu", "What do you reccommend?","Could I get something"],
+	 "responses": ["We sell anything with free delivery for first time customers:) "],
+	 "context_set": ""
+	},
+	{"tag": "hours",
+	 "patterns": ["When are you open", "What are your hours", "Hours of operation"],
+	 "responses": ["We are open 7am -4pm Monday-Friday!"],
+	 "context_set": ""
+	},
+	{"tag": "buy",
+	 "patterns": ["Can i buy something", "How much "],
+	 "responses": ["Yes , Please add it to your cart :)"],
+	 "context_set": ""
+	}
+]
+}
